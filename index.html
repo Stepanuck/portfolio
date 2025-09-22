@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/unicornio.ico">
+</head>
+<body>
+    
+    <header>
+            <div class="container">
+                <a href="#Yo">
+                    <strong>Tomas</strong>
+                </a>
+                <nav>
+                    <ul>
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <main id="contenido">
+        <section id="inicio" class="contenido-section">
+            <div class="container">
+            <img src="assets/foto-mia.jpg" alt="Foto de Tomas" class="foto-perfil">
+            <h1>Hola, soy <span> Tomas </span></h1>
+            <p>Analista<strong> en sistemas </strong> me dedico a preservar y mejorar servidores</p>
+            <div class="button-section">
+                <a href="#proyectos">Ver proyectos</a>
+                <a href="#Cv.docx" target="_blank" rel="noopener">Descargar CV</a>
+            </div>
+        </div>
+        </section>
+
+        <section id="sobre-mi" class="container">
+            <h2>Sobre mi</h2>
+            <p>Soy un apasionado por las nuevas tecnologias, por el desarollo y por la infraestructura de una empresa, apasionado del vino y de las motos, casado motiva por dar la mejor vida
+                a mi familia.
+            </p>
+        </section>
+
+        <section id="experiencia" class="contenido-section">
+            <div class="container">
+            <h2>Experiencia</h2>
+
+            <article class="marco-experiencia">
+                <header>
+                <h3>Empresa Tucci</h3>
+                <span class="fecha">Noviembre 2024 - Actualidad<span>
+                </header>
+                <p>Mi actual empleo como <strong>analista de sistemas y funcional</strong>, me dedico al cuidado de la infraestructura como tambien a facilitar la experiencia en el manejo entre el ERP y el Usuario</p>
+                </article>
+
+            <article class="marco-experiencia">
+                <header>
+                <h3>Nunatech</h3>
+                <span>Febrero 2022 - Noviembre 2024</span>
+                </header>
+                <p>En este trabajo me dedicada a todo lo que era el arreglo de computadoras, celulares, instalacion de sistemas, atencion al publico, venta de informatica, un poco de todo</p>
+            </article>
+            </div>
+        </section>
+        
+
+        <section id="proyectos" class="contenido-section">
+            <div class="container">
+                <h2>Proyectos</h2>
+                <div class="grid-proyectos">
+                    
+                    <article class="carta-proyecto">
+                        <img src="assets/gestionGimnasio.png" alt="Captura del programa de gestión de un gimnasio"/>
+                        <div class="carta-cuerpo">
+                            <h3>Programa de Gestion para un gimnasio</h3>
+                            <p>creado en el idle de codeblocks con el uso de c++, fue presentando en mi entrega para la materia de programacion 2</p>
+                            <div class="carta-links">
+                                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                                    <a href="#" target="_blank"><i class="fa-solid fa-play"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="carta-proyecto">
+                        <img src="assets/gestionArticulos.png" alt="Captura del programa de gestión para tienda de artículos"/>
+                        <div class="carta-cuerpo">
+                            <h3>Programa de Gestion para una tienda de articulos</h3>
+                            <p>creado en el idle de visual studio 2022 con el uso de c# en .Net framework con winforws, fue presentando como el primer projecto de programacion 3</p>
+                            <div class="carta-links">
+                                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                                    <a href="#" target="_blank"><i class="fa-solid fa-play"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="contenido-section">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-wrap">
+
+      <div class="skills-col">
+        <h3><i class="fa-solid fa-server"></i> Infraestructura</h3>
+        <ul>
+          <li><i class="fa-brands fa-windows"></i> Windows Server / Active Directory / GPO</li>
+          <li><i class="fa-solid fa-cubes"></i> Virtualización con Proxmox</li>
+          <li><i class="fa-solid fa-network-wired"></i> Redes (Cisco / Meraki / VLAN / VPN)</li>
+          <li><i class="fa-solid fa-database"></i> Backups / Snapshots / ZFS</li>
+        </ul>
+      </div>
+
+      <div class="skills-col">
+        <h3><i class="fa-solid fa-code"></i> Desarrollo</h3>
+        <ul>
+          <li><i class="fa-brands fa-html5"></i> HTML / CSS / JavaScript</li>
+          <li><i class="fa-solid fa-database"></i> SQL / Oracle (básico)</li>
+          <li><i class="fa-solid fa-robot"></i> Automatizaciones y scripting</li>
+          <li><i class="fa-solid fa-file-alt"></i> Buenas prácticas y documentación</li>
+        </ul>
+      </div>
+
+      <div class="skills-col">
+        <h3><i class="fa-solid fa-cloud"></i> Cloud / Colaboración</h3>
+        <ul>
+          <li><i class="fa-solid fa-globe"></i> DNS / dominios / certificados</li>
+          <li><i class="fa-brands fa-google"></i> Google Workspace (gestión y adopción)</li>
+          <li><i class="fa-solid fa-headset"></i> Atención al usuario final</li>
+          <li><i class="fa-solid fa-laptop-code"></i> Monitoreo y soporte remoto</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+         <section id="contacto" class="contenido-section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form id="contact-form" action="#" method="post" novalidate>
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="tu@email.com" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué puedo ayudarte?"></textarea>
+                    </div>
+                    <button class="btn" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+      
+    
+    <footer>
+        <div class="container">
+        <p>&copy; <span id="year"></span> Tomas — Todos los derechos reservados</p>
+        <ul class="social">
+            <li><i class="fa-brands fa-linkedin"></i><a href="#Linkedin" aria-label="LinkedIn">LinkedIn</a></li>
+            <li><i class="fa-brands fa-github"></i><a href="#Github" aria-label="GitHub">GitHub</a></li>
+            <li><i class="fa-solid fa-envelope"></i><a href="marinozzitomas@hotmail.com" aria-label="Email">Email</a></li>
+        </ul>
+        </div>
+    </footer>
+
+        
+    <script src="script.js"></script>
+</body>
+</html>
